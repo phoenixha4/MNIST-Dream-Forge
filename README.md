@@ -2,8 +2,6 @@
 
 A PyTorch implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) trained on the MNIST handwritten digit dataset.
 
-![Sample Generated Digits](187500.png)
-
 ## Overview
 
 This project implements a DCGAN architecture to generate artificial handwritten digits that mimic the MNIST dataset. The implementation follows the standard DCGAN architecture with convolutional and transposed convolutional layers.
@@ -47,3 +45,5 @@ The model is trained for 200 epochs with a batch size of 64. Adam optimizer with
 ## Results
 
 After training, the generator produces realistic digit images as shown in the sample output.
+
+![Sample Generated Digits](187500.png)
